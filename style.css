@@ -1,0 +1,41 @@
+/* All paragrpah text is green */
+
+p {
+  color: green;
+  font-size: 17px;
+  text-decoration: none;
+}
+/* ALL h1 headers black */
+h1{
+  color: #32993;
+  text-transform: uppercase;
+  margin: 20px;
+  padding: 40px;
+  border-style: groove;
+  border-width: 7x;
+  border-color: black;
+
+
+/* BOTH h1 & h2 have no background color  */
+}
+h1, h2 {
+  background-color: #fff;
+}
+* {
+  font-family: serif;
+  /* Target all elements (*) change font to serif. */
+}
+h2 {
+  text-decoration: underline;
+}
+/* ID selectors: border and solid and black */
+#intro {
+  border-width: 9px;
+  border-style: solid;
+  border-color: black;
+}
+/* Class selectors */
+.spotlight {
+  background-color: #B22222
+
+}
